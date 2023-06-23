@@ -17,5 +17,5 @@ docker compose -f docker-compose.demo.staging.yml -p staging up -d
 To develop locally :
 
 ```sh 
-docker compose up -d -p local
+docker compose up -d
 ```
