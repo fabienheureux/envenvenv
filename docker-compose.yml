@@ -3,7 +3,5 @@ version: "3.7"
 name: local
 
 services:
-  coucou: 
-    build: https://gitlab.com/antoinebhr/bloc5_vide_grenier.git#develop
-    ports:
-      - 8000:80
+  coucou:
+    build:  ./
