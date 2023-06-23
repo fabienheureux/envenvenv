@@ -5,7 +5,11 @@
 To test the staging and production environments : 
 
 ```sh 
-docker compose -f docker-compose.demo.yml up -d 
+# Run production environment
+docker compose -f docker-compose.demo.prod.yml -p prod up -d 
+
+# Run staging environment
+docker compose -f docker-compose.demo.staging.yml -p staging up -d 
 ```
 
 ## Local development
@@ -13,5 +17,5 @@ docker compose -f docker-compose.demo.yml up -d
 To develop locally :
 
 ```sh 
-docker compose up -d
+docker compose up -d -p local
 ```
