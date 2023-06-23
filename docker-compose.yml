@@ -1,0 +1,3 @@
+services:
+  coucou: 
+    build: https://gitlab.com/antoinebhr/bloc5_vide_grenier.git#${deploy_tag}
