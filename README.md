@@ -2,16 +2,16 @@
 
 ## Deployment
 
-To deploy this project, copy .env file matching your target environment
+To test the staging and production environments : 
 
 ```sh 
-docker compose up -d 
+docker compose -f docker-compose.demo.yml up -d 
 ```
 
 ## Local development
 
-To develop locally, start the stack with the command below
+To develop locally :
 
 ```sh 
-docker compose -f docker-compose.local.yml up -d
+docker compose up -d
 ```

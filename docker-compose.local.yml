@@ -1,5 +1,0 @@
-services:
-  coucou: 
-    build: ./
-    ports:
-      - 8000:80
