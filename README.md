@@ -5,7 +5,6 @@
 To deploy this project, copy .env file matching your target environment
 
 ```sh 
-# On production
 docker compose up -d 
 ```
 
