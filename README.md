@@ -6,11 +6,6 @@ To deploy this project, copy .env file matching your target environment
 
 ```sh 
 # On production
-cp .env.prod .env
-docker compose up -d 
-
-# On staging
-cp .env.staging .env
 docker compose up -d 
 ```
 
